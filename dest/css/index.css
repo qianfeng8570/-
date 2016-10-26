@@ -1,0 +1,116 @@
+@charset "UTF-8";
+html {
+  font-size: 31.25vw; }
+
+html, body {
+  width: 3.2rem; }
+
+header {
+  width: 3rem;
+  height: 0.28rem;
+  background: #b81c22; }
+
+header {
+  padding: 0.1rem; }
+  header form {
+    width: 2.72rem;
+    height: 0.263rem;
+    background: #fff;
+    border-radius: 0.05rem;
+    float: left; }
+  header a {
+    float: right;
+    display: block;
+    width: 0.215rem;
+    height: 0.155rem;
+    line-height: 0.08rem;
+    text-align: center;
+    border: #fff solid 0.01rem;
+    border-radius: 0.04rem;
+    margin-top: 0.04rem;
+    color: #fff;
+    font-weight: bold; }
+    header a .i-xiaoxi {
+      display: block;
+      font-size: 100%; }
+
+/*轮播*/
+.banner {
+  width: 3.2rem;
+  height: 2rem; }
+  .banner .swiper-container {
+    width: 100%;
+    height: 100%; }
+    .banner .swiper-container .swiper-wrapper {
+      width: 100%;
+      height: 100%; }
+      .banner .swiper-container .swiper-wrapper div {
+        float: left; }
+        .banner .swiper-container .swiper-wrapper div img {
+          width: 100%;
+          height: 100%; }
+
+.content {
+  width: 3.2rem; }
+  .content .con_top img {
+    width: 100%;
+    border-bottom: #F2F2F2 solid 0.02rem; }
+  .content .con_cen img {
+    width: 100%; }
+  .content .con_bot a {
+    display: block;
+    width: 1.6rem;
+    height: 1.8rem;
+    float: left;
+    box-sizing: border-box;
+    border-right: #f2f2f2 solid 0.02rem;
+    border-top: #f2f2f2 solid 0.02rem; }
+    .content .con_bot a img {
+      width: 100%;
+      height: 100%;
+      float: left; }
+
+/*底部导航栏*/
+nav {
+  width: 3.2rem;
+  height: 0.51rem;
+  border-top: #000 solid 0.02rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 90;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff; }
+  nav a {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 0.05rem;
+    text-align: center; }
+    nav a span {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      font-size: 0.25rem !important; }
+    nav a .nav-shopcart {
+      font-size: 0.3rem !important; }
+
+/*@mixin border2($width,$style,$color){
+    border : $width $style $color;
+}
+li{
+     //使用 border 这个 mixin 
+    @include border2(1px, solid,#000);
+}*/
